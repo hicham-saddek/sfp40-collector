@@ -14,7 +14,7 @@
 
 ---
 
-<p align="center"> 🤖 SFP40Collector est un logiciel de monitoring développer par M.Hicham SADDEK et M.Toufik MOUSSOUS dans le cadre <strong>Master Ingénierie des systèmes complexes</strong> afin de valider le projet du semestre 10, il fait partie du système développer <strong>SFP40Monitor</strong>, ce logiciel est un logiciel autonome de collecte de données afin d'assurer la collecte de données des serveurs OPC-UA. 
+<p align="center"> 🤖 SFP40Collector est un logiciel de monitoring développé par M.Hicham SADDEK et M.Toufik MOUSSOUS dans le cadre Master Ingénierie des systèmes complexes afin de valider le projet du semestre 10, il fait partie du système développer SFP40Monitor, ce logiciel est un logiciel autonome de collecte de données afin d'assurer la collecte de données des serveurs OPC-UA.
     <br> 
 </p>
 
@@ -27,12 +27,11 @@
 - [Première utilisation](#getting_started)
 - [Déploiment du bot](#deployment)
 - [Développer en utilisant](#built_using)
-- [Contributions](../CONTRIBUTING.md)
 - [Auteurs](#authors)
 
 ## 🧐 A Propos <a name = "about"></a>
 
-🤖 SFP40Collector est un logiciel de monitoring développer par M.Hicham SADDEK et M.Toufik MOUSSOUS dans le cadre <strong>Master Ingénierie des systèmes complexes</strong> afin de valider le projet du semestre 10, il fait partie du système développer <strong>SFP40Monitor</strong>, ce logiciel est un logiciel autonome de collecte de données afin d'assurer la collecte de données des serveurs OPC-UA.
+🤖 SFP40Collector est un logiciel de monitoring développé par M.Hicham SADDEK et M.Toufik MOUSSOUS dans le cadre Master Ingénierie des systèmes complexes afin de valider le projet du semestre 10, il fait partie du système développer SFP40Monitor, ce logiciel est un logiciel autonome de collecte de données afin d'assurer la collecte de données des serveurs OPC-UA.
 
 ## 🎥 Demo <a name = "demo"></a>
 
@@ -40,15 +39,16 @@
 Vous pouvez voir une démo du système en cliquant sur le lien suivant:
 <a href="https://sfp40monitor.milebits.com">Lien de la démo</a>
 
-## 💭 Comment àa marche ? <a name = "working"></a>
+## 💭 Comment ça marche ? <a name = "working"></a>
 
-Le bot vous permets justement à collecter les données d'une infastructure locale qui n'a pas accès à internet de l'exterieur, il vous suffit justement de lui fournir de choses un lien de votre api SFP40Monitor et une clés secrète que le logiciel SFP40Monitor va vous fournir une fois que vous avez créer votre canal (Un tunel d'accès qui représente votre bot).
-Le bot ensuite va se baser sur les configurations de votre logiciel SFP40Monitor pour faire ce que vous voulez :)
+Le bot vous permet justement de collecter les données d'une infrastructure locale qui n'a pas accès à Internet de l'extérieur, il vous suffit justement de lui fournir de choses un lien de votre api SFP40Monitor et une clé secrète que le logiciel SFP40Monitor va vous fournir une fois que vous avez créer votre canal (Un tunnel d'accès qui représente votre bot).
+Le bot, ensuite, va se baser sur les configurations de votre logiciel SFP40Monitor pour faire ce que vous voulez :)
+
 Ce bot est entièrement développer en Python 3.10
 
 ## 🎈 Utilisation <a name = "usage"></a>
 
-Pour lancer votre bot, il vous suffit justement d'utiliser la commande dans votre invite de commande:
+Pour lancer votre bot, il vous suffit justement d'utiliser la commande dans votre invite de commande :
 
 ```bash
 python launcher.py
@@ -56,7 +56,7 @@ python launcher.py
 
 ## 🏁 Première utilisation <a name = "getting_started"></a>
 
-Ces instruction vont vous permettre de faire une copie du bot sur une machine qui à accès libre au système que vous voulez monitorer. Pour plus d'information merci de voir la rubrique [Deploiment](#deployment) pour plus d'informations.
+Ces instructions vont vous permettre de faire une copie du bot sur une machine qui a accès libre au système que vous voulez monitorer. Pour plus d'information merci de voir la rubrique [Deploiment](#deployment).
 
 ```bash
 git clone https://github.com/hicham-saddek/sfp40-collector.git
@@ -65,7 +65,7 @@ cd sfp40-collector
 
 ### Prérequis
 
-Vous aurez besoin d'avoir quelque prérequis afin de pouvoir lancer votre bot.
+Vous aurez besoin d'avoir quelques prérequis afin de pouvoir lancer votre bot.
 
 `Python` version `3.9` ou plus <br>
 `aniso8601` version `9.0.1` ou plus <br>
@@ -96,14 +96,14 @@ Vous aurez besoin d'avoir quelque prérequis afin de pouvoir lancer votre bot.
 
 ## 🚀 Déploiment <a name = "deployment"></a>
 
-Après avoir fait une copie du bot sur votre machine locale ( Voir la rubrique [Première utilisation](#getting_started) pour plus de détails), on installe tout premièrement un environnement virtuel Python afin d'isoler le bot.
+Après avoir fait une copie du bot sur votre machine locale (voir la rubrique [Première utilisation](#getting_started) pour plus de détails), on installe tout premièrement un environnement virtuel Python afin d'isoler le bot.
 
 ```bash
 python -m venv venv
 ```
 
 Ensuite activer l'environnement virtuel
-Pour les machines Linux ou MacOs
+Pour les machines Linux ou MacOS
 
 ```bash
 . /venv/bin/activate
@@ -115,7 +115,7 @@ Pour les machines Windows
 .\venv\Scripts\activate
 ```
 
-Ensuite configurer le lien de l'API ainsi que la clès secrète de votre bot (ça permet à l'API d'identifier votre bot) dans le fichier `config.json`. <br>
+Ensuite configurer le lien de l'API ainsi que la clé secrète de votre bot (ça permet à l'API d'identifier votre bot) dans le fichier `config.json`. <br>
 Ensuite lancer votre Bot
 
 ```bash
