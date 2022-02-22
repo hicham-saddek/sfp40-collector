@@ -92,6 +92,7 @@ Vous aurez besoin d'avoir quelque prérequis afin de pouvoir lancer votre bot.
 `six version` `1.16.0` ou plus <br>
 `urllib3` version `1.26.8` ou plus <br>
 `Werkzeug` version `2.0.3` ou plus <br>
+`wheel` version `0.37.1`ou plus <br>
 
 ## 🚀 Déploiment <a name = "deployment"></a>
 
