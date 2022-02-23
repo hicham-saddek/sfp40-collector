@@ -41,8 +41,8 @@ Vous pouvez voir une démo du système en cliquant sur le lien suivant:
 
 ## 💭 Comment ça marche ? <a name = "working"></a>
 
-Le bot vous permet justement de collecter les données d'une infrastructure locale qui n'a pas accès à Internet de l'extérieur, il vous suffit justement de lui fournir de choses un lien de votre api SFP40Monitor et une clé secrète que le logiciel SFP40Monitor va vous fournir une fois que vous avez créer votre canal (Un tunnel d'accès qui représente votre bot).
-Le bot, ensuite, va se baser sur les configurations de votre logiciel SFP40Monitor pour faire ce que vous voulez :)
+Le bot vous permet justement de collecter les données d'une infrastructure locale qui n'a pas accès à Internet, il vous suffit justement de lui fournir lui un lien de votre api SFP40Monitor et une clé secrète que le logiciel SFP4.0Monitor va vous fournir une fois que vous avez créer votre canal (Un tunnel d'accès qui représente votre bot).
+Le bot, ensuite, va se baser sur les configurations de votre logiciel SFP40Monitor pour accomplir les taches nécessaires pour collecter les données selon la convenances des utilisateur de la plateforme SFP4.0Monitor
 
 Ce bot est entièrement développer en Python 3.10
 
